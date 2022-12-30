@@ -17,6 +17,7 @@ const MenuItem = ({ depthLevel, goBack, item, setLeft }: MenuItemProps) => {
 
   useEffect(() => {
     if (item.defaultOpen) {
+      item.defaultOpen = false;
       handleOpenMenu();
     }
   }, []);

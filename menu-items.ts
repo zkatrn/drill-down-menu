@@ -66,6 +66,7 @@ export const menuItems = [
       },
       {
         title: 'Nine',
+        defaultOpen: true,
         submenu: [
           {
             title: 'Kat',
@@ -81,6 +82,7 @@ export const menuItems = [
           },
           {
             title: 'More',
+            defaultOpen: true,
             submenu: [
               {
                 title: 'Kat',
