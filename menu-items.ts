@@ -46,11 +46,6 @@ export const menuItems = [
       },
       {
         title: 'Eight',
-        url: '#eight',
-      },
-      {
-        title: 'Nine',
-        defaultOpen: true,
         submenu: [
           {
             title: 'Kat',
@@ -63,6 +58,46 @@ export const menuItems = [
           {
             title: 'Milan',
             url: '#milan',
+          },
+          {
+            title: 'More',
+          },
+        ],
+      },
+      {
+        title: 'Nine',
+        submenu: [
+          {
+            title: 'Kat',
+            url: '#kat',
+          },
+          {
+            title: 'Blitz',
+            url: '#blitz',
+          },
+          {
+            title: 'Milan',
+            url: '#milan',
+          },
+          {
+            title: 'More',
+            submenu: [
+              {
+                title: 'Kat',
+                url: '#kat',
+              },
+              {
+                title: 'Blitz',
+                url: '#blitz',
+              },
+              {
+                title: 'Milan',
+                url: '#milan',
+              },
+              {
+                title: 'More',
+              },
+            ],
           },
         ],
       },
