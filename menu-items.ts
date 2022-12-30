@@ -1,85 +1,70 @@
 export const menuItems = [
   {
-    title: 'MLB',
-    icon: '⚾',
-    brand: 'mlb',
+    title: 'Happy',
+    icon: '😊',
     submenu: [
       {
-        title: 'Drops',
-        url: 'mlb/drops',
+        title: 'One',
+        url: '#one',
       },
       {
-        title: 'Marketplace',
-        url: 'mlb/marketplace',
+        title: 'Two',
+        url: '#two',
       },
       {
-        title: 'Collection',
-        url: 'mlb/collection',
+        title: 'Three',
+        url: '#three',
       },
     ],
   },
   {
-    title: 'Netflix',
-    icon: '🎬',
-    brand: 'ntx',
+    title: 'Love',
+    icon: '💗',
+    submenu: [
+      {
+        title: 'Four',
+        url: '#four',
+      },
+      {
+        title: 'Five',
+        url: '#five',
+      },
+      {
+        title: 'Six',
+        url: '#six',
+      },
+    ],
+  },
+  {
+    title: 'Family',
+    icon: '👨‍👩‍👦',
     defaultOpen: true,
     submenu: [
       {
-        title: 'Drops',
-        url: 'netflix/drops',
+        title: 'Seven',
+        url: '#seven',
       },
       {
-        title: 'Marketplace',
-        url: 'netflix/marketplace',
+        title: 'Eight',
+        url: '#eight',
       },
       {
-        title: 'Collection',
+        title: 'Nine',
+        defaultOpen: true,
         submenu: [
           {
-            title: 'one',
-            url: '#one',
+            title: 'Kat',
+            url: '#kat',
           },
           {
-            title: 'two',
-            url: '#two',
+            title: 'Blitz',
+            url: '#blitz',
           },
           {
-            title: 'three',
-            submenu: [
-              {
-                title: 'one',
-                url: '#one',
-              },
-              {
-                title: 'two',
-                url: '#two',
-              },
-              {
-                title: 'three',
-                url: '#three',
-              },
-            ],
+            title: 'Milan',
+            url: '#milan',
           },
         ],
-      },
-    ],
-  },
-  {
-    title: 'Racing',
-    icon: '🚗',
-    brand: 'nsc',
-    submenu: [
-      {
-        title: 'Drops',
-        url: 'racing/drops',
-      },
-      {
-        title: 'Marketplace',
-        url: 'racing/marketplace',
-      },
-      {
-        title: 'Collection',
-        url: 'racing/collection',
       },
     ],
   },
